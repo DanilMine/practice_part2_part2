@@ -13,8 +13,8 @@ const server = http.createServer((req, res) => {
     })
 
     const users = [
-        {name:"Andey Manik", age:17},
-        {name:"Kurisha Top", age:29}
+        {name:"Vlad Len", age:20},
+        {name:"Dimochka", age:17}
     ]
     
     res.end(JSON.stringify(users));
